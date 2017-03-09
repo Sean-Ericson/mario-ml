@@ -10,7 +10,7 @@ import numpy as np
 
 from pywinauto.application import Application
 
-bizhawk_dir = r'C:\Users\Alex\Desktop\BizHawk-1.11.6\\'
+bizhawk_dir = os.getcwd() + r'\bizhawk\\'
 
 lua_script = 'pythonInterface.Lua'
 bizhawk_exe = bizhawk_dir + 'EmuHawk.exe'

@@ -3,7 +3,7 @@
 from neat import nn, population, statistics, visualize
 from emulator import EmulatorExecutor
 
-executor = EmulatorExecutor(4)
+executor = EmulatorExecutor(1)
 
 
 def eval_fitness(genomes):
